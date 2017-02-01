@@ -4,19 +4,22 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Hello, 
+I'm Daewon who are really big fan of <a href="http://www.nba.com/rockets/">Houston Rockets</a>.
+My major is Political Science and I got minor in Computer Science from <a href="http://www.knu.ac.kr/wbbs/">KNU</a>.
+I'm working in Department of Political Science as a researcher.
+These days, I'm putting my mind to do <a href="https://www.djangoproject.com/">Django</a> and study <a href="https://www.coursera.org/learn/machine-learning">Machine Learning</a> on Coursera.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2>To do list</h2>
+
+<ul class="skill-list">
+	<li>Skydiving License</li>
+	<li>Javascript</li>
+	<li>Butterfly Stroke</li>
+	<li>Qgis</li>
+	<li>Las Vegas</li>
+	<li>ERA under 3.0</li>	
+</ul>
 
 <h2>Skills</h2>
 
