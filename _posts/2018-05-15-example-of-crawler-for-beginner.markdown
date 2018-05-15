@@ -6,7 +6,7 @@ categories: jekyll update
 
 ---
 
----
+
 # 크롤러를 이해해보자!!! 
 
 - request란?
@@ -18,12 +18,12 @@ categories: jekyll update
 
 ---
 
----
+
 ## 1. request란? 
 
 
 
-![Markdown Image][http://acacha.org/svn/LinuxProgramacio/moodle/sessio5/imatges/]
+![Markdowm Image][1]
 
 
 - 클라이언트(사용자)가 특정한 정보를 서버에 요청하는 작업.
@@ -47,7 +47,7 @@ categories: jekyll update
 * 우리가 알아보기 힘든 __html, css, javascript__등의 문법을 __브라우저__가 해석해서 사용자가 평소 접하는 __웹페이지__ 형태로 구현.
 ---
 
----
+
 ## 2. html, css, javascript 
 
 - HTML 은 웹 페이지상에서 문단, 제목, 표, 이미지, 동영상등을 정의하고 그 구조와 의미를 부여하   는 마크업 언어이다.
@@ -59,7 +59,7 @@ categories: jekyll update
 
 ---
 
----
+
 ## 3. dom 구조 이해하기(html)
 
 ## HTML(HyperText Markup Language)라고 한다. 
@@ -75,13 +75,13 @@ categories: jekyll update
 
 - 자세한 html의 구조에 대한 설명은 [링크](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals)를 참조한다.
 
-![Markdown Image][https://www.computerhope.com/jargon/d/dom1.jpg]
+![Markdowm Image][2]
 - photo from https://www.computerhope.com/jargon/d/dom.htm
 
 - 간략히 표현하자면, html 정보는 위 사진과 같이 dom 구조를 가지고 있다(흔히, tree라고도 표현).
 ---
 
----
+
 ## 4. 크롤러의 동작원리 
 
 - 우리가 크롤러라고 부르는 것은 크게 두가지 동작을 하는 프로그램을 말한다. 
@@ -95,11 +95,11 @@ __따라서, *크롤러란* 우리가 평소에 <U>클릭 혹은 주소 입력�
 
 ---
 
----
+
 ## 5. 파이썬을 이용한 크롤러 제작.
 - 서버에 요청을 보내는 라이브러리 : requests 
 - html에서 원하는 데이터를 추출하는 라이브러리 : BeautifulSoup4
----
+
 
 ---
 ## 6. 본 자료에서는 [네이버 웹툰 정보](http://comic.naver.com/webtoon/weekday.nhn)를 가져오는 크롤러를 만드는 작업을 진행해볼 것이다. 
@@ -164,4 +164,5 @@ img_req = requests.get(img_url).content
 f.write(img_req)
 f.close()
 ```
----
+[1]: http://acacha.org/svn/LinuxProgramacio/moodle/sessio5/imatges/
+[2]: https://www.computerhope.com/jargon/d/dom1.jpg
