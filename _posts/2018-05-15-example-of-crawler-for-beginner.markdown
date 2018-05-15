@@ -42,18 +42,18 @@ categories: jekyll update
 [브라우저는 어떻게 동작하는가?](https://d2.naver.com/helloworld/59361)
 
 * 지금까지의 내용을 정리해보면, 
-* 우리는 특정한 정보를 얻기 위해 __특정한 주소(URL)__로 요청을 보냄.
-* 서버에서는 사용자로부터 받은 요청에 알맞은 __응답(html+css+javascirpt+알파)__을 반환.
-* 우리가 알아보기 힘든 __html, css, javascript__등의 문법을 __브라우저__가 해석해서 사용자가 평소 접하는 __웹페이지__ 형태로 구현.
+* 우리는 특정한 정보를 얻기 위해 특정한 주소(URL)로 요청을 보냄.
+* 서버에서는 사용자로부터 받은 요청에 알맞은 응답(html+css+javascirpt+알파)을 반환.
+* 우리가 알아보기 힘든 html, css, javascript등의 문법을 브라우저가 해석해서 사용자가 평소 접하는 웹페이지 형태로 구현.
 ---
 
 
 ## 2. html, css, javascript 
 
-- HTML 은 웹 페이지상에서 문단, 제목, 표, 이미지, 동영상등을 정의하고 그 구조와 의미를 부여하   는 마크업 언어이다.
+- HTML 은 웹 페이지상에서 문단, 제목, 표, 이미지, 동영상등을 정의하고 그 구조와 의미를 부여하는 마크업 언어이다.
 
-- CSS 는 배경색, 폰트, 컨텐츠의 레이아웃등을 지정하여, HTML 컨텐츠를 꾸며주는 스타일 규칙 언   어이다.
-- JavaScript 는 동적으로 컨텐츠를 바꾸고, 멀티미디어를 다루고, 움직이는 이미지등 웹 페이지를   꾸며주도록 하는 프로그래밍 언어이다. 물론, 전부는 아니지만 몇 줄만의 자바스크립트 코드만으로 꽤   나 훌륭한 작품을 만들 수 있다.
+- CSS 는 배경색, 폰트, 컨텐츠의 레이아웃등을 지정하여, HTML 컨텐츠를 꾸며주는 스타일 규칙 언어이다.
+- JavaScript 는 동적으로 컨텐츠를 바꾸고, 멀티미디어를 다루고, 움직이는 이미지등 웹 페이지를 꾸며주도록 하는 프로그래밍 언어이다. 물론, 전부는 아니지만 몇 줄만의 자바스크립트 코드만으로 꽤나 훌륭한 작품을 만들 수 있다.
 - [출처 : MDN web Docs](https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 - [예시코드](https://jsfiddle.net/akgaj7d7/1/)
 
@@ -67,8 +67,21 @@ categories: jekyll update
 - html은 웹브라우저에 표시되는 글, 이미지 등을 표현하기 위해 "마크업"이라는 문법을 사용한다.
 - head, title, body, header, p, div, span, img 등 다양한 태그들이 존재한다.
 
+{% highlight html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h3>This is a Heading</h3>
+<p>This is a paragraph.</p>
+</body>
+</html>
+{% endhighlight %}
 
-<h1>This is a Heading</h1>
+<h3>This is a Heading</h3>
 <p>This is a paragraph.</p>
 
 
@@ -79,6 +92,7 @@ categories: jekyll update
 - photo from https://www.computerhope.com/jargon/d/dom.htm
 
 - 간략히 표현하자면, html 정보는 위 사진과 같이 dom 구조를 가지고 있다(흔히, tree라고도 표현).
+
 ---
 
 
@@ -91,7 +105,7 @@ categories: jekyll update
 __따라서, *크롤러란* 우리가 평소에 <U>클릭 혹은 주소 입력을 통해 특정 페이지에 
 접근하는 것</U>과 접근해서 원하는 데이터를 <U>직접 드래그해서 복사하는 작업을 컴퓨터가 대신</U>해주는????__
 > "서대원"이 야매로 정의한 것이므로.... 정확한 정의는 아니다... 이해만 하자;;;;
-- 그래서 우리는 파이썬의 라이브러리를 통해 서버에 정보를 요청하는 작업과 원하는 데이터를 추출하는 작업을 __코드화__ 해볼 것이다.
+그래서 우리는 파이썬의 라이브러리를 통해 서버에 정보를 요청하는 작업과 원하는 데이터를 추출하는 작업을 __코드화__ 해볼 것이다.
 
 ---
 
@@ -164,5 +178,5 @@ img_req = requests.get(img_url).content
 f.write(img_req)
 f.close()
 ```
-[1]: http://acacha.org/svn/LinuxProgramacio/moodle/sessio5/imatges/
+[1]: http://acacha.org/svn/LinuxProgramacio/moodle/sessio5/imatges/cs-120-3.334.png
 [2]: https://www.computerhope.com/jargon/d/dom1.jpg
