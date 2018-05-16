@@ -27,7 +27,7 @@ categories: jekyll update
 
 
 - 클라이언트(사용자)가 특정한 정보를 서버에 요청하는 작업.
-- 이때, 특정한 정보를 __주소(URL)__로 요청함.
+- 이때, 특정한 정보를 주소(URL)로 요청함.
 - 만약 우리가 네이버의 웹툰에 대한 요청을 보내고자 하면? 
 - 한번 확인해보자 [링크](https://www.naver.com/)
 
@@ -187,6 +187,10 @@ f.close()
 ```
 ---
 
-- 참고 : [파일 입출력(python)](https://wikidocs.net/26)
+> 참고  [파일 입출력(python)](https://wikidocs.net/26)
+
+
+
+
 [1]: http://acacha.org/svn/LinuxProgramacio/moodle/sessio5/imatges/cs-120-3.334.png
 [2]: https://www.computerhope.com/jargon/d/dom1.jpg
